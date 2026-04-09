@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3d0b12;
+  text-align: center;
+}
+
+.image {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid #7a2030; 
+  transition: transform 0.5s ease;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.40);
+  margin-bottom: 20px;
+}
+
+.image:hover {
+  transform: translate3d(5px, 5px, 3px);
+}
+
+header {
+  background-color: #0f1420; 
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #6b1a26; 
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, #ff6b7a, #e03352);
+  webkit-background-clip: text;
+  webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: whitesmoke;
+}
+
+.div1 {
+  background-color: #5a1220; 
+  border: 1px solid #7a2030; 
+  margin-top: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  color: #f0e6e8;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.7;
+
+}
+
+.div1 p{
+	
+}
+
+  .botao{
+    display:inline-block;
+    background-color: black;
+    padding: 20px;
+    margin-left: 100px auto;
+    margin-right: 75px auto;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer; 
+    margin-top: 20px;
+       }
+footer{
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 15px auto;
+  border-radius: 15px;
+  background-color: #060212;
+  color: white;
+}
